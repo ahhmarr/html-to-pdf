@@ -162,5 +162,5 @@ pdf.create(html, {
     "format": "A4"
 }).toBuffer(function(err, buffer) {
 	console.log(err)
-	console.log('created pdf')
+	console.log(buffer)
 })
